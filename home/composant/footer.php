@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="main">
 			
-			&copy; 2023 <strong>UPC </strong> by <a href="http://ejsarl.com" target="_blank">EJ SARL</a>
+			&copy; 2023 <strong>REFRENTIEL EJ </strong> by <a href="http://ejsarl.com" target="_blank">EJ SARL</a>
 		
 		</footer>
 	</div>
@@ -146,3 +146,6 @@
 
 	<!-- Demo Settings -->
 	<script src="assets/js/neon-demo.js"></script>
+
+
+		

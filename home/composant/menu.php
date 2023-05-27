@@ -35,39 +35,80 @@
 			<li >
 					<a href="?home">
 						<i class="entypo-gauge"></i>
-						<span class="title">Dashboard</span>
+						<span class="title">Cartographie de services</span>
 					</a>
 				</li>
 
 				<li class="has-sub">
 					<a href="?home">
 						<i class="entypo-users"></i>
-						<span class="title">Etudiant</span>
+						<span class="title">Projet</span>
+					</a>
+					 
+					<ul>
+
+						<li>
+							<a href="?page=ajout_projet">
+								<span class="title">Ajouter </span>
+							</a>
+						</li>
+
+						<li>
+							<a href="?page=recuperer_projets">  
+								<span class="title">Gerer</span>
+							</a>
+						</li>
+										
+					</ul>
+				</li>
+
+				<li class="has-sub">
+					<a href="?home">
+						<i class="entypo-users"></i>
+						<span class="title">Architecture Métier</span>
 					</a>
 					 
 					<ul>
 
 						<li>
 							<a href="?page=ajouter_etudiant">
-								<span class="title">Ajouter  </span>
+								<span class="title">Acteurs </span>
 							</a>
 						</li>
 
 						<li>
 							<a href="?page=recuperer_etudiants">  
-								<span class="title">Gerer</span>
+								<span class="title">Roles</span>
 							</a>
 						</li>
 
 						<li >
 							<a  href="?page=importer_etudiants">
-								<span class="title">Importer</span>
+								<span class="title">Unités d'organisation</span>
 							</a>
 						</li>
 
 						<li >
 							<a  href="?page=activer_etudiants">
-								<span class="title">(Des)activer</span>
+								<span class="title">Fonctions</span>
+							</a>
+						</li>
+
+						<li >
+							<a  href="?page=recuperer_processus">
+								<span class="title">Processus</span>
+							</a>
+						</li>
+
+						<li >
+							<a  href="?page=activer_etudiants">
+								<span class="title">Services</span>
+							</a>
+						</li>
+
+						<li >
+							<a  href="?page=activer_etudiants">
+								<span class="title">Entités</span>
 							</a>
 						</li>
 
@@ -79,20 +120,20 @@
 				<li class="has-sub">
 					<a href="?home">
 					<i class="fa fa-trophy"></i>
-						<span class="title">Cours</span>
+						<span class="title">Architecture des données (SI)</span>
 					</a>
 					<ul >
 										
 						<li>
 							<a  href="?page=recuperer_cours">
-								<span class="title">Gerer</span>
+								<span class="title">Entités</span>
 							</a>
 						</li>
 						
 
 						<li>
 							<a  href="?page=importer_cours">
-								<span class="title">Importer</span>
+								<span class="title">diagrammes</span>
 							</a>
 						</li>
 					
@@ -103,34 +144,33 @@
 				<li class="has-sub">
 					<a href="?home">
 					<i class="fa fa-money"></i>
-						<span class="title">Resultat</span>
+						<span class="title">Architecture applicative (SI)</span>
 					</a>
 					<ul >
+
+						<li>
+							<a  href="?page=ajouter_processus">
+								<span class="title">Ajouter</span>
+							</a>
+						</li>
 					
 					
 						<li>
 							<a  href="?page=recuperer_resultats">
-								<span class="title">Gerer</span>
+								<span class="title">Interactions</span>
 							</a>
 						</li>
 				
 
 						<li>
-							<a  href="?page=importer_resultats">
-								<span class="title">Importer</span>
+							<a  href="?page=recuperer_processus">
+								<span class="title">Processus</span>
 							</a>
 						</li>
 
 						<li>
 							<a  href="?page=rechercher_resultat">
-								<span class="title">Rechercher</span>
-							</a>
-						</li>
-
-						
-						<li>
-							<a  href="?page=supprimer_resultat">
-								<span class="title">Supprimer</span>
+								<span class="title">Entités</span>
 							</a>
 						</li>
 
@@ -142,18 +182,24 @@
 				<li class="has-sub">
 					<a href="forms-main.html">
 					<i class="fa fa-users"></i>
-						<span class="title">Agent</span>
+						<span class="title">Architecture Technique</span>
 					</a>
 					<ul >
 						<li>
 							<a href="?page=ajouter_agent">
-								<span class="title">Ajouter</span>
+								<span class="title">Composant</span>
 							</a>
 						</li>
 
 						<li>
 							<a href="?page=recuperer_agents">
-								<span class="title">Gerer</span>
+								<span class="title">Capteur</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="?page=recuperer_agents">
+								<span class="title">Diagramme</span>
 							</a>
 						</li>
 
@@ -162,70 +208,7 @@
 				</li>
 
 				
-				<li class="has-sub">
-					<a href="forms-main.html">
-					<i class="fa fa-users"></i>
-						<span class="title">Departement</span>
-					</a>
-					<ul >
-						<li>
-							<a href="?page=ajouter_departement">
-								<span class="title">Ajouter</span>
-							</a>
-						</li>
-
-						<li>
-							<a href="?page=recuperer_departements">
-								<span class="title">Gerer</span>
-							</a>
-						</li>
-						
-					</ul>
-				</li>
-
-				<li class="has-sub">
-					<a href="forms-main.html">
-					<i class="fa fa-users"></i>
-						<span class="title">Option</span>
-					</a>
-					<ul >
-						<li>
-							<a href="?page=ajouter_option">
-								<span class="title">Ajouter</span>
-							</a>
-						</li>
-
-						<li>
-							<a href="?page=recuperer_options">
-								<span class="title">Gerer</span>
-							</a>
-						</li>
-						
-					</ul>
-				</li>
-
-				<li class="has-sub">
-					<a href="forms-main.html">
-					<i class="fa fa-users"></i>
-						<span class="title">Promotion</span>
-					</a>
-					<ul >
-						<li>
-							<a href="?page=ajouter_promotion">
-								<span class="title">Ajouter</span>
-							</a>
-						</li>
-
-						<li>
-							<a href="?page=recuperer_promotions">
-								<span class="title">Gerer</span>
-							</a>
-						</li>
-						
-					</ul>
-				</li>
-				
-				
+		
 									
 				<li>
 						<a href="/smaas/kill.php">
